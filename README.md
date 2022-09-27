@@ -55,3 +55,23 @@ and classify the MNIST test set with parameters `N=1000` and `alpha=0.001`.
 
 * The script [analyze.py](code/analyze.py) contains some useful classes and functions to analyze the result data 
 from [certify.py](code/certify.py) or [predict.py](code/predict.py).
+
+### Pre-trained models
+
+We release our ImageNet models trained with SmoothMix in the following GDrive link: [ImageNet](https://drive.google.com/drive/folders/1M6Garbgg201tjxPosGIATZ7kLeB8HJQO?usp=sharing)
+
+### Citation
+
+```
+@inproceedings{jeong2021smoothmix,
+ author = {Jeong, Jongheon and Park, Sejun and Kim, Minkyu and Lee, Heung-Chang and Kim, Do-Guk and Shin, Jinwoo},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {30153--30168},
+ publisher = {Curran Associates, Inc.},
+ title = {SmoothMix: Training Confidence-calibrated Smoothed Classifiers for Certified Robustness},
+ url = {https://proceedings.neurips.cc/paper/2021/file/fd45ebc1e1d76bc1fe0ba933e60e9957-Paper.pdf},
+ volume = {34},
+ year = {2021}
+}
+```
